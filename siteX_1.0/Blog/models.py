@@ -3,11 +3,11 @@ from django.db import models
 # Create your models here.
 
 class blog_content(models.Model):
-    blog_id = models.IngeterField(primary_key = True)
+    blog_id = models.IntegerField(primary_key = True)
     blog_text = models.TextField()
 
 class favorite_information(models.Model):
-    favorite_id= models.IngeterField(primary_key = True)
+    favorite_id= models.IntegerField(primary_key = True)
     favorite_blog_id = models.ForeignKey(blog_content, on_delete = models.CASCADE)
     
 class account_information(models.Model):
