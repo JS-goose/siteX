@@ -4,7 +4,7 @@ from django.shortcuts import render
 from . import models
 
 def index(request):
-    users = models.object.all()
+    users = account_information.object.all()
     return render(request,'html/index.html',{"users_all": users})
 
 def About(request):
