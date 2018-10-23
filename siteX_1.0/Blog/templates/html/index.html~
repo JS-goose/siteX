@@ -44,7 +44,7 @@
         </dev>
     <p> 
         <h> List of users:</h><br>
-        <!- -{{users_all}} -->
+        {{users_all}}
     </p>
     </body>
 </html>

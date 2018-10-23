@@ -6,7 +6,7 @@ from django.shortcuts import render
 def index(request):
     """users = account_information.objects.order_by("user_id")
     output = [s.user_id for s in users]"""
-    return render(request,'html/index.html')
+    return render(request,'html/index.html'""",{"users_all": output}""")
 
 def About(request):
     return render(request,'html/About.html')
