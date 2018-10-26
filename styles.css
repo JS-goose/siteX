@@ -66,10 +66,22 @@ body {
 }
 
 #search {
+  border: 1px solid black;
+  padding: 1%;
+  background-color: rgba(165, 42, 42, 0.9);
+  margin-top: 10%;
   font-size: 1.4em;
   margin-right: 10%;
+  box-shadow: 1px 1px 5px black;
 }
 
-#sign_up {
+#sign_up {  
+  border: 1px solid black;
+  padding: 1%;
+  background-color: rgba(165, 42, 42, 0.9);
+  margin-top: 10%;
   font-size: 1.4em;
+  margin-right: 10%;
+  box-shadow: 1px 1px 5px black;
 }
+
