@@ -75,6 +75,14 @@ body {
   box-shadow: 1px 1px 5px black;
 }
 
+#search_input {
+  width: 200px;
+}
+
+#sign_up_input {
+  width: 200px;
+}
+
 #sign_up {  
   border: 1px solid black;
   padding: 1%;
