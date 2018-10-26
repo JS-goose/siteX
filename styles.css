@@ -53,12 +53,16 @@ body {
 /* Main content styling */
 .main {
   display: flex;
+  justify-content: center;
 }
 
 #search {
-  border: 1px solid orange;
+  border: 1px solid salmon;
+  font-size: 1.4em;
+  margin-right: 10%;
 }
 
 #sign_up {
   border: 1px solid blue;
+  font-size: 21.4m;
 }
