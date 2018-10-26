@@ -55,7 +55,7 @@ body {
   display: flex;
 }
 
-.search {
+#search {
   border: 1px solid orange;
 }
 
