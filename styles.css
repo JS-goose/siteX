@@ -7,14 +7,16 @@ body {
     padding: 0;
 }
 
+/* Nav styling */
 .nav {
   display: flex;
   flex-flow: row nowrap;
-  border: 1px solid purple;
+  border-bottom: 1px solid purple;
   justify-content: center;
   align-items: center;
 }
 
+/* Styling for nav links ul */
 #nav_links {
   display: flex;
   flex-flow: row nowrap;
@@ -22,6 +24,7 @@ body {
   padding: 25px;
 }
 
+/* Styling for nav buttons */
 .nav_link {
   border: 1px solid black;
   padding: 10px;
@@ -30,8 +33,19 @@ body {
   box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* Styling for nav buttons on hover */
 .nav_link:hover {
   color: rgba(60, 136, 235, 0.5);
   transform: scale(1.05);
   cursor: pointer;
+}
+
+/* Log In Icon */
+.fa-users {
+  font-size: 1.5em;
+}
+
+/* Login input styling */
+#login_input {
+  padding: 5px;
 }
