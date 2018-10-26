@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+body {
+  /* Imaage courtesy of The Pattern Library http://thepatternlibrary.com/#hodgepodge */
+  background-image: url(./images/hodgepodge.png);
+}
+
 /* Nav styling */
 .nav {
   display: flex;
@@ -14,6 +19,9 @@ body {
   border-bottom: 1px solid purple;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 80px;
 }
 
 /* Styling for nav links ul */
@@ -21,7 +29,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
-  padding: 25px;
+  padding-right: 22px;
 }
 
 /* Styling for nav buttons */
@@ -52,21 +60,16 @@ body {
 
 /* Main content styling */
 .main {
-  /* Imaage courtesy of The Pattern Library http://thepatternlibrary.com/#hodgepodge */
-  background-image: url(./images/hodgepodge.png);
   background-repeat: repeat;
   display: flex;
   justify-content: center;
-  height: 100%;
 }
 
 #search {
-  border: 1px solid salmon;
   font-size: 1.4em;
   margin-right: 10%;
 }
 
 #sign_up {
-  border: 1px solid blue;
-  font-size: 21.4m;
+  font-size: 1.4em;
 }
