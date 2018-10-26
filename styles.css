@@ -49,3 +49,16 @@ body {
 #login_input {
   padding: 5px;
 }
+
+/* Main content styling */
+.main {
+  display: flex;
+}
+
+.search {
+  border: 1px solid orange;
+}
+
+#sign_up {
+  border: 1px solid blue;
+}
