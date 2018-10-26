@@ -43,7 +43,7 @@ body {
 
 /* Styling for nav buttons on hover */
 .nav_link:hover {
-  color: rgba(60, 136, 235, 0.5);
+  color: rgba(165, 42, 42, 0.9);
   transform: scale(1.05);
   cursor: pointer;
 }
